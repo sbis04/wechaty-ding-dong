@@ -45,20 +45,6 @@ async function onMessage(msg: Message) {
 
 const bot = new Wechaty({
   name: "ding-dong-bot",
-  /**
-   * Specify a `puppet` for a specific protocol (Web/Pad/Mac/Windows, etc).
-   *
-   * You can use the following providers:
-   *  - wechaty-puppet-hostie
-   *  - wechaty-puppet-wechat
-   *  - wechaty-puppet-padplus
-   *  - etc.
-   *
-   * Learn more about Wechaty Puppet Providers at:
-   *  https://github.com/wechaty/wechaty-puppet/wiki/Directory
-   */
-
-  // puppet: 'wechaty-puppet-hostie',
   puppet: "wechaty-puppet-wechat4u"
 });
 
